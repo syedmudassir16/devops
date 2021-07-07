@@ -24,6 +24,7 @@ class DummyClass(Task):
         self.name = self.sub_projectname
     
     def run(self):
+        self.name = self.sub_projectname
         return 0
 
 
